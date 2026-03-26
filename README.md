@@ -78,7 +78,7 @@ Cenários descritos em Gherkin:
 ```bash
 1. Instale as dependências:
 
-npm install
+- npm install
 
 2. Execute o Cypress:
 
