@@ -6,7 +6,7 @@ Projeto desenvolvido com foco na validação de dados de entrada, regras de neg�
 
 ## 🚀 Demonstração
 
-🔗 Em breve disponível online (deploy com GitHub Pages)
+🔗 https://jaquelinesanches.github.io/formulario-validacao-js/
 
 ---
 
@@ -16,6 +16,7 @@ Projeto desenvolvido com foco na validação de dados de entrada, regras de neg�
 - CSS3
 - JavaScript
 - Git e GitHub
+- Cypress (Testes automatizados E2E )
 
 ---
 
@@ -81,3 +82,26 @@ Este projeto foi desenvolvido como parte do meu processo de transição de carre
 ---
 
 ✨ Projeto desenvolvido por Jaqueline Sanches
+
+## 🧪 Testes Automatizados (Cypress)
+
+Este projeto possui testes automatizados E2E utilizando Cypress, cobrindo:
+
+- Validação de envio de formulário vazio
+- Validação de mensagens de erro
+- Fluxo de cadastro com sucesso
+
+### ▶️ Como executar os testes
+
+1. Instale as dependências:
+
+```bash
+npm install
+
+2. Execute o Cypress:
+npx cypress open
+
+3. Selecione o arquivo de teste:
+formulario.cy.js
+
+```

@@ -1,0 +1,24 @@
+{
+  "name": "formulario-validacao",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido com foco na validação de dados de entrada, regras de negócio e aplicação de conceitos de Qualidade de Software (QA).",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaquelineSanches/formulario-validacao-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JaquelineSanches/formulario-validacao-js/issues"
+  },
+  "homepage": "https://github.com/JaquelineSanches/formulario-validacao-js#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
