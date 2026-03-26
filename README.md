@@ -75,15 +75,16 @@ Cenários descritos em Gherkin:
 
 ## ▶️ Como executar os testes automatizados
 
+```bash
 1. Instale as dependências:
 
-```bash
 npm install
 
 2. Execute o Cypress:
 
-npx cypress open
+- npx cypress open
 
 3. Selecione o teste:
-   formulario.cy.js
+
+- formulario.cy.js
 ```
