@@ -1,6 +1,6 @@
 # 📋 Formulário de Cadastro com Validação
 
-Projeto desenvolvido com foco na validação de dados de entrada, regras de negócio e aplicação de conceitos de Qualidade de Software (QA).
+Projeto desenvolvido com foco na validação de dados de entrada, regras de negócio e aplicação de conceitos de Qualidade de Software (QA), incluindo testes manuais, automação de testes e BDD.
 
 ---
 
@@ -16,7 +16,7 @@ Projeto desenvolvido com foco na validação de dados de entrada, regras de neg�
 - CSS3
 - JavaScript
 - Git e GitHub
-- Cypress (Testes automatizados E2E )
+- Cypress (Testes automatizados E2E)
 
 ---
 
@@ -35,63 +35,45 @@ Projeto desenvolvido com foco na validação de dados de entrada, regras de neg�
 
 ## 🧪 Testes realizados
 
-Foram elaborados cenários de teste para validar as regras de negócio e o comportamento da aplicação.
+Este projeto contempla diferentes níveis de testes:
 
-### ✔️ Cobertura de testes:
+### ✔️ Testes Manuais
+
+Documentados no arquivo:
+➡️ `testes.md`
+
+Cobrem:
 
 - Campos obrigatórios
 - Validação de e-mail inválido
 - Senha mínima
 - Divergência entre senhas
-- Testes negativos (dados inválidos)
-- Testes positivos (envio correto)
+- Testes negativos e positivos
 - Feedback visual dos campos
-- Comportamento do formulário sem recarregamento da página
-
-📄 Consulte os cenários completos em:
-➡️ `testes.md`
 
 ---
 
-## 🧠 Aprendizados
+### 🤖 Testes Automatizados (Cypress)
 
-Durante o desenvolvimento deste projeto, foram praticados:
+Localizados em:
+➡️ `cypress/e2e/formulario.cy.js`
 
-- Manipulação do DOM com JavaScript
-- Validação de dados de entrada
-- Estruturação de regras de negócio
-- Tratamento de erros e feedback ao usuário
-- Pensamento analítico voltado para testes de software
+Cobrem:
 
----
-
-## 📌 Melhorias futuras
-
-- 👁️ Implementar mostrar/ocultar senha
-- ⚡ Validação em tempo real (on input)
-- 💾 Persistência de dados com LocalStorage
-- 🔐 Validação de força de senha
-- 🧪 Implementação de testes automatizados
-
----
-
-## 🎯 Objetivo
-
-Este projeto foi desenvolvido como parte do meu processo de transição de carreira para a área de Tecnologia, com foco em Qualidade de Software (QA).
-
----
-
-✨ Projeto desenvolvido por Jaqueline Sanches
-
-## 🧪 Testes Automatizados (Cypress)
-
-Este projeto possui testes automatizados E2E utilizando Cypress, cobrindo:
-
-- Validação de envio de formulário vazio
+- Envio de formulário vazio
 - Validação de mensagens de erro
-- Fluxo de cadastro com sucesso
+- Fluxo completo de cadastro com sucesso
 
-### ▶️ Como executar os testes
+---
+
+### 🧠 BDD (Behavior Driven Development)
+
+Cenários descritos em Gherkin:
+➡️ `cypress/e2e/formulario.feature`
+
+---
+
+## ▶️ Como executar os testes automatizados
 
 1. Instale as dependências:
 
@@ -99,9 +81,9 @@ Este projeto possui testes automatizados E2E utilizando Cypress, cobrindo:
 npm install
 
 2. Execute o Cypress:
+
 npx cypress open
 
-3. Selecione o arquivo de teste:
-formulario.cy.js
-
+3. Selecione o teste:
+   formulario.cy.js
 ```
