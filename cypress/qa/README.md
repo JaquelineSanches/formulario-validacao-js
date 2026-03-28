@@ -28,3 +28,7 @@ Formulário enviado com campo vazio
 
 ## 📸 Evidências
 
+### Board no Jira
+![jira-board](./jira-board.png)
+![tarefa-exemplo](./tarefa-exemplo.png)
+![bug-exemplo](./bug-exemplo.png)
