@@ -31,8 +31,8 @@ Formulário enviado com campo vazio
 ### Board no Jira
 ![jira-board](./jira-board.png)
 
-### Tarefa
+### Tarefa no Jira
 ![tarefa-exemplo](./tarefa-exemplo.png)
 
-### Bug
+### Bug no Jira
 ![bug-exemplo](./bug-exemplo.png)
